@@ -1,5 +1,5 @@
 #!/bin/bash
 
-: "${ZOOKEEPER_HOME?ZOOKEEPER_HOME not set}"
+: "${HOME_ZOOKEEPER?HOME_ZOOKEEPER not set}"
 
-$ZOOKEEPER_HOME/bin/zkServer.sh restart
+$HOME_ZOOKEEPER/bin/zkServer.sh restart
